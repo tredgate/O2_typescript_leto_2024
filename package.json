@@ -1,0 +1,24 @@
+{
+  "name": "o2_typescript_leto_2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tredgate/O2_typescript_leto_2024.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tredgate/O2_typescript_leto_2024/issues"
+  },
+  "homepage": "https://github.com/tredgate/O2_typescript_leto_2024#readme",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
