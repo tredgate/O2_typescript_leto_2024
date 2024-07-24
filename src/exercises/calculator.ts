@@ -8,7 +8,7 @@ const subtract = (a: number, b: number) => {
   console.log(`Výsledek odčítání: ${a} - ${b} = ${result} `);
 };
 
-function multiplyF(a: number, b: number) {
+function multiply(a: number, b: number) {
   const result = a * b;
   console.log(`Výsledek násobení: ${a} * ${b} = ${result} `);
 }
@@ -20,6 +20,8 @@ const divide = (a: number, b: number) => {
 
 add(15, 48);
 subtract(98, 41);
-multiplyF(54, 30);
+multiply(54, 30);
 divide(88, 6);
 add(2, 5);
+
+export default multiply;

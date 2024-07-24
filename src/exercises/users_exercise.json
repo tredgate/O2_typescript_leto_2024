@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "age": 30,
+      "address": {
+        "street": "123 Main St",
+        "city": "Springfield",
+        "state": "IL",
+        "postalCode": "62704"
+      },
+      "phoneNumbers": [
+        {
+          "type": "home",
+          "number": "555-1234"
+        },
+        {
+          "type": "work",
+          "number": "555-5678"
+        }
+      ],
+      "isActive": true,
+      "roles": ["admin", "user"],
+      "preferences": {
+        "newsletter": true,
+        "notifications": {
+          "email": true,
+          "sms": false
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "age": 25,
+      "address": {
+        "street": "456 Oak St",
+        "city": "Metropolis",
+        "state": "NY",
+        "postalCode": "10001"
+      },
+      "phoneNumbers": [
+        {
+          "type": "mobile",
+          "number": "555-8765"
+        }
+      ],
+      "isActive": false,
+      "roles": ["user"],
+      "preferences": {
+        "newsletter": false,
+        "notifications": {
+          "email": false,
+          "sms": true
+        }
+      }
+    }
+  ]
+}

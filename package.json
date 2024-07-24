@@ -19,6 +19,7 @@
   "homepage": "https://github.com/tredgate/O2_typescript_leto_2024#readme",
   "dependencies": {
     "ts-node": "^10.9.2",
+    "tsx": "^4.16.2",
     "typescript": "^5.5.3"
   }
 }
